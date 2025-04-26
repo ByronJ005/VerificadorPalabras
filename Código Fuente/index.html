@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor con resaltado de sintaxis</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h2>Reconocimiento de palabras reservadas</h2>
+    <div class="editor" contenteditable="true" spellcheck="false"></div>
+    
+    <h6>Palabras clave utilizadas:</h6>
+    <div class="leyenda">
+      <span class="palabra-clave">int</span>
+      <span class="palabra-clave">double</span>
+      <span class="palabra-clave">for</span>
+      <span class="palabra-clave">while</span>
+      <span class="palabra-clave">if</span>
+    </div>
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

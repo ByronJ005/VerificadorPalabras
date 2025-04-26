@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 600px;
+}
+
+.editor {
+    border: 1px solid #ccc;
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: white;
+    font-family: monospace;
+    font-size: 16px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+[contenteditable="true"]:focus {
+    outline: none;
+}
+
+.leyenda {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.palabra-clave {
+    /*padding: 2px 8px;*/
+    border-radius: 3px;
+    color: #005cc5;
+}
